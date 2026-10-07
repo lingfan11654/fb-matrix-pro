@@ -1,0 +1,6 @@
+{
+  "name": "FBMatrix - Facebook多场景精准获客与社交矩阵自动化系统",
+  "description": "专为跨境出海、独立站及私域团队打造的Facebook多场景精准获客与社交自动化系统，支持多入口拓客、AI条件画像过滤、多账号防封云控与Telegram交互获客机器人。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

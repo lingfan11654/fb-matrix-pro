@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@keyframes rollUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes rollDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-roll-up {
+  animation: rollUp 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-roll-down {
+  animation: rollDown 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
